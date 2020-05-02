@@ -17,7 +17,9 @@
     "url": "https://github.com/vernigora2k/colaba4/issues"
   },
   "homepage": "https://github.com/vernigora2k/colaba4#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
