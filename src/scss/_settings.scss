@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: "open sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+  }
+  
+//display flex
+.disp-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+//wrappers 
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
