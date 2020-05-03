@@ -3,6 +3,7 @@
 
 body {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     
@@ -10,7 +11,7 @@ body {
 //section-main---------------------
 section.main {
     background-color: #3B181E;
-    background-image: url(/img/main-screen/main-screen-bg.jpg);
+    background-image: url(/img/section-main/main-screen-bg.jpg);
     background-size: 110%;
     background-repeat: no-repeat;
     background-position: top center;
@@ -19,7 +20,11 @@ section.main {
     width: 100%;
     height: 1020px;
     .main__header {
-        height: 28%;
+        height: 19%;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-left: 95px;
+        margin-right: 95px;
       .header-logo {
       }
       .header-main-menu {
@@ -27,23 +32,61 @@ section.main {
     }
     .main__title {
         height: 26%;
+        max-width: 818px;
+        p {
+            font-size: 120px;
+            line-height: 132px;
+            text-align: center;
+            letter-spacing: 0.09em;
+        }
     }
     .main__footer {
-        height: 38%;
+        height: 30%;
+        justify-content: space-between;
+        margin-top: 80px;
+        margin-left: 80px;
+        margin-right: 80px;
       .sidebar-social {
         .social-items {
+            flex-wrap: wrap;
+            flex-direction: column;
           .social-item {
+              margin: 12.5px;
           }
         }
       }
       .our-works-button {
+          flex-wrap: wrap;
+          max-width: 205px;
         .show-work-btn {
+            a {
+                text-decoration: none;
+                p {
+                    font-size: 12px;
+                    line-height: 13px;
+                    text-align: center;
+                    letter-spacing: 0.15em;
+                    color: white;
+                    border: 1px solid white;
+                    padding: 19px 30px;
+                    background-color: rgba(0, 0, 0, 0.4);
+                }
+            }
         }
         .mouse-btn {
+            align-self: flex-end;
+            a { 
+                text-decoration: none;
+                img {}
+            }
         }
       }
       .sidebar-show-catalog {
         .show-catalog-link {
+            a {
+                text-decoration: none;
+                img {}
+            }
         }
       }
     }
@@ -59,6 +102,7 @@ section.main {
     height: 860px;
     max-width: 1920px;
     max-height: 860px;
+    width: 100%;
     .catalog__title {
     }
     .catalog__items {
@@ -69,6 +113,11 @@ section.main {
   
 //section-special-offer------------
   section.special-offer {
+    background-color: #3B181E;
+    height: 680px;
+    max-width: 1920px;
+    max-height: 680px;
+    width: 100%;
     .special-offer__article {
       .offer-title {
       }
@@ -83,6 +132,11 @@ section.main {
   
 //footer---------------------------
   footer.main-footer {
+    background-color: #3B181E;
+    height: 75px;
+    max-width: 1920px;
+    max-height: 75px;
+    width: 100%;
     .main-footer__items {
       .footer-item {
       }

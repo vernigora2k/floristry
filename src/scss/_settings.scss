@@ -8,12 +8,14 @@ html {
   }
   
   body {
-    font-family: "open sans";
+    font-family: "forum";
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 30px;
+    line-height: 33px;
     color: white;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     background: #e5e5e5;
   }
   
@@ -25,6 +27,5 @@ html {
 
 //wrappers 
 .wrapper {
-    max-width: 1110px;
     margin: 0 auto;
 }
