@@ -8,23 +8,93 @@
     <link rel="stylesheet" href="dist/app.css" />
 <link href="/dist/app.css" rel="stylesheet"></head>
 <body>
-    <div class="glide">
+    <section class="main">
+        <div class="main__header">
+            <div class="header-logo"></div>
+            <div class="header-main-menu"></div>
+        </div>
+        <div class="main__title"></div>
+        <div class="main__footer">
+            <div class="sidebar-social">
+                <div class="social-items">
+                    <div class="social-item"></div>
+                    <div class="social-item"></div>
+                    <div class="social-item"></div>
+                    <div class="social-item"></div>
+                </div>
+            </div>
+            <div class="our-works-button">
+                <div class="show-work-btn"></div>
+                <div class="mouse-btn"></div>
+            </div>
+            <div class="sidebar-show-catalog">
+                <div class="show-catalog-link"></div>
+            </div>
+        </div>
+        <div class="main__footer-gradient"></div>
+    </section>
+
+    <section class="catalog">
+        <div class="catalog__title"></div>
+        <div class="catalog__items">
+            <div class="catalog-item"></div>
+            <div class="catalog-item"></div>
+            <div class="catalog-item"></div>
+            <div class="catalog-item"></div>
+        </div>
+    </section>
+
+    <section class="special-offer">
+        <div class="special-offer__article">
+            <div class="offer-title"></div>
+            <div class="offer-description"></div>
+            <div class="offer-link"></div>
+        </div>
+        <div class="special-offer__img"></div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="main-footer__items">
+            <div class="footer-item"></div>
+            <div class="footer-item"></div>
+            <div class="footer-item"></div>
+            <div class="footer-item"></div>
+            <div class="footer-item"></div>
+        </div>
+        <div class="main-footer__social">
+            <div class="social-items">
+                <div class="social-item"></div>
+                <div class="social-item"></div>
+                <div class="social-item"></div>
+                <div class="social-item"></div>
+            </div>
+        </div>
+    </footer>
+    <!-- <div class="glide">
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
-            <li class="glide__slide"><img src="/img/main-screen/flower1.png" alt=""></li>
-            <li class="glide__slide"><img src="/img/main-screen/flower2.jpg" alt=""></li></li>
-            <li class="glide__slide"><img src="/img/main-screen/flower3.png" alt=""></li></li>
+            <li class="glide__slide"><img src="/img/main-screen/catalog-logo-flower1.png" alt=""></li>
+            <li class="glide__slide"><img src="/img/main-screen/catalog-logo-flower2.jpg" alt=""></li></li>
+            <li class="glide__slide"><img src="/img/main-screen/catalog-logo-flower3.png" alt=""></li></li>
           </ul>
+        </div>
+        <div data-glide-el="controls">
+            <button data-glide-dir="<<">Start</button>
+            <button data-glide-dir=">>">End</button>
         </div>
         <div class="glide__arrows" data-glide-el="controls">
             <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
             <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-          </div>
-      </div>
+        </div> -->
+      
     <script src="/dist/app.js"></script>
-    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
-    <script>
-        new Glide('.glide').mount()
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <!-- <script>
+        new Glide('.glide', {
+            type: 'carousel',
+            startAt: 0,
+            perView: 3
+        }).mount()
+    </script> -->
 <script type="text/javascript" src="/dist/app.js"></script></body>
 </html>
