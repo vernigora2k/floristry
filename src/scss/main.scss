@@ -98,15 +98,65 @@ section.main {
   
 //section-catalog------------------
   section.catalog {
+    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #3B181E;
     height: 860px;
     max-width: 1920px;
     max-height: 860px;
     width: 100%;
     .catalog__title {
+      margin-top: 150px;
+      p {
+        position: relative;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      p::after {
+        position: absolute;
+        top: 54px;
+        bottom: -20px;
+        left: 60px;
+        border: 1px solid #FFFFFF;
+        width: 100px;
+        background-color: white;
+        content: '';
+      }
+      p::before {
+        position: absolute;
+        top: 25px;
+        left: -750px;
+        width: 750%;
+        content: 'Каталог услуг';
+        font-size: 720%;
+        line-height: 243px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.03;
+      }
     }
     .catalog__items {
+      margin-top: 120px;
       .catalog-item {
+        margin-left: 50px;
+        position: relative;
+        
+      }
+      .catalog-item:first-child {
+        margin-left: 0px;
+      }
+      .catalog-item-active-on {
+
+      }
+      .catalog-item-active-off {
+
       }
     }
   }
