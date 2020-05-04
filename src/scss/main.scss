@@ -147,16 +147,87 @@ section.main {
       .catalog-item {
         margin-left: 50px;
         position: relative;
-        
+        a {
+          text-decoration: none;
+          color: #FFFFFF
+        }
       }
       .catalog-item:first-child {
         margin-left: 0px;
       }
-      .catalog-item-active-on {
-
+      .active-on {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 400px;
+        position: absolute;
+        top: 36px;
+        left: 20px;
+        .item-article__header {
+          flex-direction: row-reverse;
+          justify-content: flex-end;
+          p:first-child {
+            font-size: 20px;
+            line-height: 22px;
+          }
+          p:last-child {
+            content: '';
+            align-self: flex-end;
+            width: 60px;
+            margin-bottom: 3px;
+            margin-left: 3px;
+            height: 1px;
+            background-color: white;
+          }
+        }
+        .item-article__footer {
+          align-self: flex-end;
+          p {
+            font-size: 16px;
+            line-height: 170%;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.9;
+          }
+        }
       }
-      .catalog-item-active-off {
-
+      .active-off {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 400px;
+        position: absolute;
+        top: 36px;
+        left: 20px;
+        .item-article__header {
+          p:first-child {
+            font-size: 20px;
+            line-height: 22px;
+          }
+          p:last-child {
+            content: '';
+            align-self: flex-end;
+            width: 60px;
+            margin-bottom: 3px;
+            margin-left: 12px;
+            height: 1px;
+            background-color: white;
+          }
+        }
+        .item-article__footer {
+          align-self: flex-end;
+          p {
+            font-size: 16px;
+            line-height: 170%;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.9;
+          }
+        }
       }
     }
   }
