@@ -1,13 +1,22 @@
 import {mainCatalogItems, catalogItemArticles} from './UiElements'
 
-console.log(mainCatalogItems[0])
-mainCatalogItems[0].addEventListener('mouseover', () => {
-    mainCatalogItems[0].classList.add('darkened')
-    mainCatalogItems[0].classList.add('border-around')
-    catalogItemArticles[0].classList.add('active-on')
-})
-mainCatalogItems[0].addEventListener('mouseout', () => {
-    mainCatalogItems[0].classList.remove('darkened')
-    mainCatalogItems[0].classList.remove('border-around')
-    catalogItemArticles[0].classList.remove('active-on')
-})
+function addListenerToCatalogItem(numOfItem) {
+    return function() {
+        console.log(numOfItem)
+        mainCatalogItems[numOfItem].addEventListener('mouseover', () => {
+            mainCatalogItems[numOfItem].classList.add('darkened')
+            mainCatalogItems[numOfItem].classList.add('border-around')
+            catalogItemArticles[numOfItem].classList.add('active-on')
+        })
+        mainCatalogItems[numOfItem].addEventListener('mouseout', () => {
+            mainCatalogItems[numOfItem].classList.remove('darkened')
+            mainCatalogItems[numOfItem].classList.remove('border-around')
+            catalogItemArticles[numOfItem].classList.remove('active-on')
+        })
+    }
+}
+
+addListenerToCatalogItem(0)()
+addListenerToCatalogItem(1)()
+addListenerToCatalogItem(2)()
+addListenerToCatalogItem(3)()
