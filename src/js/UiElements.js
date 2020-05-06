@@ -1,0 +1,1 @@
+export const socialItem = document.querySelect('.social-item')

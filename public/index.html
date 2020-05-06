@@ -10,8 +10,8 @@
 <body>
     <section class="main">
         <div class="main__header flex">
-            <div class="header-logo"><img src="/img/section-main/header-logo.png" alt=""></div>
-            <div class="header-main-menu"><img src="/img/section-main/header-main-menu.png" alt=""></div>
+            <div class="header-logo"><a href="#"><img src="/img/section-main/header-logo.png" alt=""></a></div>
+            <div class="header-main-menu"><a href="#"><img src="/img/section-main/header-main-menu.png" alt=""></a></div>
         </div>
         <div class="main__title flex wrapper">
             <p>флористика с душой</p>
@@ -27,7 +27,7 @@
             </div>
             <div class="our-works-button flex">
                 <div class="show-work-btn wrapper">
-                    <a href="#"><p>смотреть работы</p></a>
+                    <a href="#"><p class="show-off">смотреть работы</p><p class="show-on">смотреть</p></a>
                 </div>
                 <div class="mouse-btn wrapper">
                     <a href="#"><img src="/img/section-main/mouse.png" alt=""></a>
@@ -91,28 +91,58 @@
     </section>
 
     <section class="special-offer">
-        <div class="special-offer__article">
-            <div class="offer-title"></div>
-            <div class="offer-description"></div>
-            <div class="offer-link"></div>
+        <div class="wrapper flex">
+            <div class="special-offer__article flex">
+                <div class="offer-title">
+                    <p>акционные предложения</p>
+                </div>
+                <div class="offer-description">
+                    <p>При заказе свадебного оформления предоставляется скидка на букет невесты и бутоньерку в размере 30%</p>
+                </div>
+                <div class="offer-link">
+                    <a href="#"><p class="btn-offer-design">заказать оформление</p></a>
+                </div>
+            </div>
+            <div class="special-offer__img">
+                <img src="/img/section-offer/special-offer-main-img.jpg" alt="">
+            </div>
         </div>
-        <div class="special-offer__img"></div>
     </section>
 
     <footer class="main-footer">
-        <div class="main-footer__items">
-            <div class="footer-item"></div>
-            <div class="footer-item"></div>
-            <div class="footer-item"></div>
-            <div class="footer-item"></div>
-            <div class="footer-item"></div>
+        <div class="main-footer__items flex wrapper">
+            <div class="footer-item">
+                <a href="#">
+                    <p>Cвадебная флористика</p>
+                </a>
+            </div>
+            <div class="footer-item">
+                <a href="#">
+                    <p>Букеты на любые мероприятия</p>
+                </a>
+            </div>
+            <div class="footer-item">
+                <a href="#">
+                    <p>Букеты невесты</p>
+                </a>
+            </div>
+            <div class="footer-item">
+                <a href="#">
+                    <p>Композиции</p>
+                </a>
+            </div>
+            <div class="footer-item">
+                <a href="#">
+                    <p>Оформление мероприятий</p>
+                </a>
+            </div>
         </div>
-        <div class="main-footer__social">
-            <div class="social-items">
-                <div class="social-item"></div>
-                <div class="social-item"></div>
-                <div class="social-item"></div>
-                <div class="social-item"></div>
+        <div class="main-footer__social wrapper">
+            <div class="social-items flex">
+                <div class="social-item"><img src="/img/footer/inst.svg" alt="" class="inst"></div>
+                <div class="social-item"><img src="/img/footer/fb.svg" alt="" class="inst"></div>
+                <div class="social-item"><img src="/img/footer/whatsapp.svg" alt="" class="inst"></div>
+                <div class="social-item"><img src="/img/footer/vk.svg" alt="" class="inst"></div>
             </div>
         </div>
     </footer>

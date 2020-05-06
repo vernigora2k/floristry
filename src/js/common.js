@@ -1,1 +1,2 @@
-console.log('This is common.js')
+import {socialItem} from './UiElements'
+
