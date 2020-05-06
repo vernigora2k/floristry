@@ -91,12 +91,6 @@ section.main {
                   border: 1px solid white;
                   padding: 19px 22px;
                 }
-                // .show-off:hover {
-                //   display: block;
-                // }
-                // .show-work-btn:hover p.show-on {
-                //   display: block;
-                // }
             }
         }
         .show-work-btn:hover .show-off {
@@ -109,16 +103,30 @@ section.main {
             align-self: flex-end;
             a { 
                 text-decoration: none;
-                img {}
+                img.mouse-off {display: block;}
+                img.mouse-on {display: none;}
             }
+        }
+        .mouse-btn:hover img.mouse-off {
+          display: none;
+        }
+        .mouse-btn:hover img.mouse-on {
+          display: block;
         }
       }
       .sidebar-show-catalog {
         .show-catalog-link {
             a {
                 text-decoration: none;
-                img {}
+                img.catalog-link-off {display: block}
+                img.catalog-link-on {display: none;}
             }
+        }
+        .show-catalog-link:hover img.catalog-link-off{
+          display: none;
+        }
+        .show-catalog-link:hover img.catalog-link-on {
+          display: block;
         }
       }
     }
