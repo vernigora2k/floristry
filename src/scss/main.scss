@@ -1,6 +1,9 @@
 @import "./settings";
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "./mobile.scss";
+@import "./mobile-pad.scss";
 
+@media screen and (min-width: 1800px) {
 body {
     display: flex;
     flex-wrap: wrap;
@@ -433,3 +436,4 @@ section.main {
       }
     }
   }
+}
