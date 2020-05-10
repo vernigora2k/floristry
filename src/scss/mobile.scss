@@ -161,6 +161,31 @@ section.main {
           height: 392px;
           .slides {
             .slide {
+              position: relative;
+              .item-num {
+                position: absolute;
+                top: 23px;
+                left: 100px;
+                font-size: 20px;
+                line-height: 22px;
+                color: white;
+              }
+              .item-dash {
+                position: absolute;
+                border: 1px solid white;
+                left: 20px;
+                top: 36px;
+                right: 230px;
+              }
+              .item-title {
+                position: absolute;
+                font-size: 16px;
+                line-height: 170%;
+                letter-spacing: 0.1em;
+                color: white;
+                bottom: 15px;
+                left: 20px;
+              }
               img {
               }
             }
