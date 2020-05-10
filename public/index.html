@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="dist/app.css" />
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <!-- <script type="text/javascript" src="../src/js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="../src/js/jquery.glide.min.js"></script> -->
-
 </head>
 <body>
     <section class="main">
@@ -106,18 +102,20 @@
         </div>
         <div class="catalog__items">
             <div class="slid">
-                <div class="slider" data-glide-el="track">
+                <div class="slider wrapper" data-glide-el="track">
                 <ul class="slides">
                     <li class="slide"><img src="/img/section-main/catalog-logo-flower1.jpg" alt=""></li>
                     <li class="slide"><img src="/img/section-main/catalog-logo-flower2.jpg" alt=""></li>
                     <li class="slide"><img src="/img/section-main/catalog-logo-flower3.png" alt=""></li>
+                    <li class="slide"><img src="/img/section-main/catalog-logo-flower3.png" alt=""></li>
                 </ul>
                 </div>
                 
-                <div class="slide__bullets" data-glide-el="controls[nav]">
+                <div class="slide__bullets flex" data-glide-el="controls[nav]">
                     <button class="slide__bullet" data-glide-dir="=0"></button>
                     <button class="slide__bullet" data-glide-dir="=1"></button>
                     <button class="slide__bullet" data-glide-dir="=2"></button>
+                    <button class="slide__bullet" data-glide-dir="=3"></button>
                   </div>
             </div>
         </div>
@@ -182,46 +180,15 @@
     
     <script src="/dist/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
     <script type="text/javascript">
-      
-    //   $(function() {
-    //         console.log($('.slider'))
-    //         $('.slider').glide({
-    //                 autoplay: 5000,
-    //                 arrows: 'body',
-    //                 navigation: 'body'
-    //         });
-
-    //   });
-    
         const config = {
             type: "carousel",
             perView: 1,
             autoplay: 5000,
             arrows: 'body',
             navigation: 'body'
-            
         }
         new Glide('.slid', config).mount()
-
-        // var button = document.querySelector('#api-update-button')
-
-        // var glide = new Glide('#api-update', {
-        // startAt: 0,
-        // perView: 3
-        // })
-
-        // button.addEventListener('click', function () {
-        // glide.update({
-        //     type: 'carousel',
-        //     focusAt: 'center',
-        //     startAt: 1,
-        //     perView: 4
-        // })
-        // })
-
-        // glide.mount()
     </script>
 </body>
 </html>

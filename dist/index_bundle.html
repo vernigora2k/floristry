@@ -105,7 +105,7 @@
             <p>каталог услуг</p>
         </div>
         <div class="catalog__items">
-            <div class="glide">
+            <div class="slid">
                 <div class="slider" data-glide-el="track">
                 <ul class="slides">
                     <li class="slide"><img src="/img/section-main/catalog-logo-flower1.jpg" alt=""></li>
@@ -113,14 +113,12 @@
                     <li class="slide"><img src="/img/section-main/catalog-logo-flower3.png" alt=""></li>
                 </ul>
                 </div>
-                <div data-glide-el="controls">
-                    <button data-glide-dir="<<">Start</button>
-                    <button data-glide-dir=">>">End</button>
-                </div>
-                <!-- <div class="glide__arrows" data-glide-el="controls">
-                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev4444</button>
-                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next55555</button>
-                </div>  -->
+                
+                <div class="slide__bullets" data-glide-el="controls[nav]">
+                    <button class="slide__bullet" data-glide-dir="=0"></button>
+                    <button class="slide__bullet" data-glide-dir="=1"></button>
+                    <button class="slide__bullet" data-glide-dir="=2"></button>
+                  </div>
             </div>
         </div>
     </section>
@@ -187,22 +185,43 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
     <script type="text/javascript">
       
-      $(function() {
-            console.log($('.slider'))
-            $('.slider').glide({
-                    autoplay: 5000,
-                    arrows: 'body',
-                    navigation: 'body'
-            });
+    //   $(function() {
+    //         console.log($('.slider'))
+    //         $('.slider').glide({
+    //                 autoplay: 5000,
+    //                 arrows: 'body',
+    //                 navigation: 'body'
+    //         });
 
-      });
-
-        // const config = {
-        //     type: "carousel",
-        //     perView: 1,
+    //   });
+    
+        const config = {
+            type: "carousel",
+            perView: 1,
+            autoplay: 5000,
+            arrows: 'body',
+            navigation: 'body'
             
-        // }
-        // new Glide('.glide', config).mount()
+        }
+        new Glide('.slid', config).mount()
+
+        // var button = document.querySelector('#api-update-button')
+
+        // var glide = new Glide('#api-update', {
+        // startAt: 0,
+        // perView: 3
+        // })
+
+        // button.addEventListener('click', function () {
+        // glide.update({
+        //     type: 'carousel',
+        //     focusAt: 'center',
+        //     startAt: 1,
+        //     perView: 4
+        // })
+        // })
+
+        // glide.mount()
     </script>
 <script type="text/javascript" src="/dist/app.js"></script></body>
 </html>
