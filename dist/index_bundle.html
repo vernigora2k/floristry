@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="dist/app.css" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!-- <script type="text/javascript" src="../src/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../src/js/jquery.glide.min.js"></script> -->
+
 <link href="/dist/app.css" rel="stylesheet"></head>
 <body>
     <section class="main">
@@ -95,6 +100,30 @@
             </a></div>
         </div>
     </section>
+    <section class="catalog-mobile flex">
+        <div class="catalog__title">
+            <p>каталог услуг</p>
+        </div>
+        <div class="catalog__items">
+            <div class="glide">
+                <div class="slider" data-glide-el="track">
+                <ul class="slides">
+                    <li class="slide"><img src="/img/section-main/catalog-logo-flower1.jpg" alt=""></li>
+                    <li class="slide"><img src="/img/section-main/catalog-logo-flower2.jpg" alt=""></li>
+                    <li class="slide"><img src="/img/section-main/catalog-logo-flower3.png" alt=""></li>
+                </ul>
+                </div>
+                <div data-glide-el="controls">
+                    <button data-glide-dir="<<">Start</button>
+                    <button data-glide-dir=">>">End</button>
+                </div>
+                <!-- <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev4444</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next55555</button>
+                </div>  -->
+            </div>
+        </div>
+    </section>
 
     <section class="special-offer">
         <div class="wrapper flex">
@@ -152,31 +181,28 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="glide">
-        <div class="glide__track" data-glide-el="track">
-          <ul class="glide__slides">
-            <li class="glide__slide"><img src="/img/main-screen/catalog-logo-flower1.png" alt=""></li>
-            <li class="glide__slide"><img src="/img/main-screen/catalog-logo-flower2.jpg" alt=""></li></li>
-            <li class="glide__slide"><img src="/img/main-screen/catalog-logo-flower3.png" alt=""></li></li>
-          </ul>
-        </div>
-        <div data-glide-el="controls">
-            <button data-glide-dir="<<">Start</button>
-            <button data-glide-dir=">>">End</button>
-        </div>
-        <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-        </div> -->
-      
+    
     <script src="/dist/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <!-- <script>
-        new Glide('.glide', {
-            type: 'carousel',
-            startAt: 0,
-            perView: 3
-        }).mount()
-    </script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+    <script type="text/javascript">
+      
+      $(function() {
+            console.log($('.slider'))
+            $('.slider').glide({
+                    autoplay: 5000,
+                    arrows: 'body',
+                    navigation: 'body'
+            });
+
+      });
+
+        // const config = {
+        //     type: "carousel",
+        //     perView: 1,
+            
+        // }
+        // new Glide('.glide', config).mount()
+    </script>
 <script type="text/javascript" src="/dist/app.js"></script></body>
 </html>

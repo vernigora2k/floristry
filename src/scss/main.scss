@@ -1,7 +1,9 @@
 @import "./settings";
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
 @import "./mobile.scss";
 @import "./mobile-pad.scss";
+@import "./glide.scss";
 
 @media screen and (min-width: 1800px) {
 body {
@@ -317,6 +319,11 @@ section.main {
       }
     }
   }
+
+//section-catalog-mobile
+section.catalog-mobile {
+  display: none;
+}
 
 //section-special-offer------------
   section.special-offer {
