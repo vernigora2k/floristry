@@ -320,4 +320,49 @@ section.special-offer {
 }
 }
 
+//footer---------------------------
+footer.main-footer {
+  background-color: #3B181E;
+  max-width: 768px;
+  width: 100%;
+  padding-top: 5px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  .main-footer__items {
+    width: 310px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    .footer-item {
+      a { 
+        text-decoration: none;
+        p {
+          text-transform: none;
+          font-size: 20px;
+          line-height: 22px;
+          color: rgba(255, 255, 255, 0.5);
+          margin-bottom: 15px;
+        }
+        p:hover {
+          color: white
+        }
+      }
+    }
+  }
+  .main-footer__social {
+    .social-items {
+      justify-content: center;
+      .social-item {
+        margin: 30px 25px;
+        img {
+          width: 30px;
+        }
+      }
+      .social-item:hover {
+        -webkit-filter: invert(100%);
+        img {background-color: black;}
+      }
+    }
+  }
+}
+
 }
