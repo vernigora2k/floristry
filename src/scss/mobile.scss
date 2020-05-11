@@ -1,11 +1,10 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
     
     body {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        
     }
 
 //section-main---------------------
@@ -54,7 +53,6 @@ section.main {
           position: relative;
         .social-items {
             flex-wrap: wrap;
-            //flex-direction: column;
           .social-item {
               width: 30px;
               margin: 21px;
@@ -133,17 +131,18 @@ section.main {
         display: none;    
     }
   }
+
 //section-catalog-------------------------
   section.catalog {
     display: none;
   }
+
 //section-catalog-mobile------------------
   section.catalog-mobile.flex {
     display: block;
     background-color: #3B181E;
     max-width: 320px;
     width: 100%;
-   
     .catalog__title {
       margin-left: 16px;
       p {
@@ -217,11 +216,7 @@ section.main {
   section.special-offer {
     background-color: #3B181E;
     max-width: 320px;
-    //flex-wrap: wrap;
-    //max-height: 680px;
-    //height: 680px;
     width: 100%;
-  
     div {
       width: 288px;
       flex-direction: column-reverse;
@@ -296,7 +291,6 @@ footer.main-footer {
   max-width: 320px;
   width: 100%;
   padding-top: 20px;
-  
   .main-footer__items {
     width: 288px;
     flex-direction: column;
