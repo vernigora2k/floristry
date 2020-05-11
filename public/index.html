@@ -132,10 +132,10 @@
                 </div>
                 
                 <div class="slide__bullets flex" data-glide-el="controls[nav]">
-                    <button class="slide__bullet" data-glide-dir="=0"></button>
-                    <button class="slide__bullet" data-glide-dir="=1"></button>
-                    <button class="slide__bullet" data-glide-dir="=2"></button>
-                    <button class="slide__bullet" data-glide-dir="=3"></button>
+                    <button class="slide__bullet" id="slide__bullet-1"data-glide-dir="=0"></button>
+                    <button class="slide__bullet" id="slide__bullet-2" data-glide-dir="=1"></button>
+                    <button class="slide__bullet" id="slide__bullet-3" data-glide-dir="=2"></button>
+                    <button class="slide__bullet" id="slide__bullet-4" data-glide-dir="=3"></button>
                   </div>
             </div>
         </div>
@@ -203,9 +203,9 @@
     <script type="text/javascript">
         const config = {
             type: "carousel",
-            perView: 0,
+            perView: 2,
             breakpoints: {
-                830: {
+                940: {
                     perView: 2
                 },
                 660: {

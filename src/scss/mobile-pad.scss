@@ -172,9 +172,13 @@ section.catalog-mobile.flex {
   }
 
   .catalog__items {
+     margin-left: 37px;
+     margin-right: 33px;
+     margin-top: 50px;
+    
     .slid {
       .slider {
-        width: 330px;
+        width: 700px;
         height: 450px;
         .slides {
           .slide {
@@ -192,7 +196,7 @@ section.catalog-mobile.flex {
               border: 1px solid white;
               left: 20px;
               top: 36px;
-              right: 230px;
+              right: 250px;
             }
             .item-title {
               position: absolute;
@@ -209,17 +213,23 @@ section.catalog-mobile.flex {
         }
       }
       .slide__bullets {
-        width: 288px;
-        margin-left: 16px;
-        margin-top: 20px;
+        width: 670px;
+        margin-top: 30px;
         margin-bottom: 50px;
-        justify-content: space-between;
+        justify-content: center;
         .slide__bullet {
           height: 3px;
           width: 62.62px;
           background: rgba(255, 255, 255, 0.3);
           border-radius: 50px;
           border: 0px;
+          margin-left: 13px;
+        }
+        #slide__bullet-2 {
+          display: none;
+        }
+        #slide__bullet-4 {
+          display: none;
         }
         .glide__bullet--active {
           background-color: white;
@@ -228,6 +238,86 @@ section.catalog-mobile.flex {
       }
     }
   }
+}
+
+//section-special-offer------------
+section.special-offer {
+  background-color: #3B181E;
+  max-width: 768px;
+  width: 100%;
+  div {
+    width: 507px;
+    flex-direction: column-reverse;
+    align-content: center;
+    margin: 0 auto;
+  .special-offer__article {
+    width: 288px;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    .offer-title {
+      position: relative;
+      margin-top: 30px;
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 170%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-right: 20px;
+      }
+    }
+    .offer-title::after {
+      position: absolute;
+      top: 60px;
+      bottom: 0px;
+      left: 200px;
+      border: 1px solid #FFFFFF;
+      width: 100px;
+      background-color: white;
+      content: '';
+    }
+    .offer-description {
+      text-transform: none;
+      margin-top: 30px;
+      font-size: 14px;
+      line-height: 170%;
+      text-align: center;
+    }
+    .offer-link {
+      font-size: 11px;
+      line-height: 12px;
+      letter-spacing: 0.15em;
+      width: 220px;
+      height: 45px;
+      background: #010001;
+      margin-top: 40px;
+      text-align: center;
+      padding-top: 15px;
+      a {
+        text-decoration: none;
+        color: white;
+        .btn-offer-design {
+          
+        }
+      }
+    }
+    .offer-link:hover {
+      background-color: white;
+      a {
+        color: #000000;
+      }
+    }
+  }
+  .special-offer__img {
+    width: 453px;
+    height: 323px;
+    content: url(/img/mobile-pad/special-offer-main-pad.jpg);
+    img {max-width: 100%;}
+  }
+}
 }
 
 }

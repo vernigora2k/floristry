@@ -133,8 +133,8 @@
                 
                 <div class="slide__bullets flex" data-glide-el="controls[nav]">
                     <button class="slide__bullet" data-glide-dir="=0"></button>
-                    <button class="slide__bullet" data-glide-dir="=1"></button>
-                    <button class="slide__bullet" data-glide-dir="=2"></button>
+                    <button class="slide__bullet" id="slide__bullet-2" data-glide-dir="=1"></button>
+                    <button class="slide__bullet" id="slide__bullet-3" data-glide-dir="=2"></button>
                     <button class="slide__bullet" data-glide-dir="=3"></button>
                   </div>
             </div>
@@ -205,11 +205,11 @@
             type: "carousel",
             perView: 2,
             breakpoints: {
-                640: {
-                    perView: 1
-                },
-                1599: {
+                940: {
                     perView: 2
+                },
+                660: {
+                    perView: 1
                 }
             },
             autoplay: 5000,
