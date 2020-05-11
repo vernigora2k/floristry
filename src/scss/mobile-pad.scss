@@ -25,11 +25,11 @@ section.main {
         margin-top: 16px;
         margin-right: 31px;
       .header-logo>a>img {
-          width: 125px;
+          width: 135px;
       }
       .header-main-menu>a>img {
           content: url(/img/mobile/main-menu-mobile.png);
-          width: 110%;
+          width: 120%;
       }
     }
     .main__title {
@@ -56,14 +56,15 @@ section.main {
         .social-items {
             flex-wrap: wrap;
           .social-item {
-              width: 30px;
-              margin: 21px;
+              width: 65px;
+              height: 65px;
+              margin: 63px;
               background-color: #3B181E;
               border-radius: 50%;
               img {
-                  width: 20px;
-                  margin-left: 5.5px;
-                  margin-bottom: 3px;
+                  width: 33px;
+                  margin-left: 16px;
+                  margin-top: 15px;
               }
           }
           .social-item:hover {
@@ -75,12 +76,12 @@ section.main {
         .social-items::after {
           content: '';
           position: absolute;
-          width: 20px;
-          height: 20px;
-          background-image: url(/img/mobile/section-main-arrow.png);
+          width: 45px;
+          height: 45px;
+          background-image: url(/img/mobile-pad/section-main-pad-arrow.png);
           background-repeat: no-repeat;
-          top: 85px;
-          left: 140px;
+          top: 165px;
+          left: 364px;
         }
       }
       .our-works-button {
@@ -93,8 +94,8 @@ section.main {
                 text-decoration: none;
                 p.show-off {
                     display: block;
-                    font-size: 10px;
-                    line-height: 13px;
+                    font-size: 15px;
+                    line-height: 17px;
                     text-align: center;
                     letter-spacing: 0.15em;
                     color: white;
@@ -104,8 +105,8 @@ section.main {
                 }
                 p.show-on {
                   display: none;
-                  font-size: 10px;
-                  line-height: 13px;
+                  font-size: 15px;
+                  line-height: 17px;
                   text-align: center;
                   letter-spacing: 0.15em;
                   color: #000000;
