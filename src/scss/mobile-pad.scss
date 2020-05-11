@@ -135,4 +135,98 @@ section.main {
     }
   }
 
+//section-catalog-------------------------
+section.catalog {
+  display: none;
+}
+
+//section-catalog-mobile------------------
+section.catalog-mobile.flex {
+  display: block;
+  background-color: #3B181E;
+  max-width: 768px;
+  width: 100%;
+  .catalog__title {
+    p {
+      font-size: 30px;
+      line-height: 33px;
+      letter-spacing: 0.06em;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 40px;
+      position: relative;
+    }
+    p:after {
+      content: '';
+      position: absolute;
+      width: 86px;
+      height: 0px;
+      border: 2px solid white;
+      top: 45px;
+      bottom: -20px;
+      left: 340px;
+      
+
+    }
+  }
+
+  .catalog__items {
+    .slid {
+      .slider {
+        width: 330px;
+        height: 450px;
+        .slides {
+          .slide {
+            position: relative;
+            .item-num {
+              position: absolute;
+              top: 23px;
+              left: 100px;
+              font-size: 20px;
+              line-height: 22px;
+              color: white;
+            }
+            .item-dash {
+              position: absolute;
+              border: 1px solid white;
+              left: 20px;
+              top: 36px;
+              right: 230px;
+            }
+            .item-title {
+              position: absolute;
+              font-size: 16px;
+              line-height: 170%;
+              letter-spacing: 0.1em;
+              color: white;
+              bottom: 15px;
+              left: 20px;
+            }
+            img {
+            }
+          }
+        }
+      }
+      .slide__bullets {
+        width: 288px;
+        margin-left: 16px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        justify-content: space-between;
+        .slide__bullet {
+          height: 3px;
+          width: 62.62px;
+          background: rgba(255, 255, 255, 0.3);
+          border-radius: 50px;
+          border: 0px;
+        }
+        .glide__bullet--active {
+          background-color: white;
+          border: 0px;
+        }
+      }
+    }
+  }
+}
+
 }
