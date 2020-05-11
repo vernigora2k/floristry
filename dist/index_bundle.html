@@ -203,7 +203,15 @@
     <script type="text/javascript">
         const config = {
             type: "carousel",
-            perView: 1,
+            perView: 2,
+            breakpoints: {
+                640: {
+                    perView: 1
+                },
+                1599: {
+                    perView: 2
+                }
+            },
             autoplay: 5000,
             arrows: 'body',
             navigation: 'body'
