@@ -558,8 +558,11 @@ div.wrap-menu-page {
           }
         
           .glide__arrows {
+            position: relative;
             button.glide__arrow.glide__arrow--left {
-              position: relative;
+              position: absolute;
+              left: -23px;
+              top: -62px;
               border-radius: 50%;
               width: 46px;
               height: 46px;
@@ -574,6 +577,9 @@ div.wrap-menu-page {
             }
         
             button.glide__arrow.glide__arrow--right {
+              position: absolute;
+              right: -23px;
+              top: -62px;
               border-radius: 50%;
               width: 46px;
               height: 46px;
