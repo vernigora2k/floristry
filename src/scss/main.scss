@@ -545,7 +545,48 @@ div.wrap-menu-page {
       }
 
       .menu-page__slider {
-
+        width: 552px;
+        height: 123px;
+        margin-top: 100px;
+        .glide {
+          .glide__track {
+            .glide__slides {
+              .glide__slide {
+        
+              }
+            }
+          }
+        
+          .glide__arrows {
+            button.glide__arrow.glide__arrow--left {
+              position: relative;
+              border-radius: 50%;
+              width: 46px;
+              height: 46px;
+              border: 1px solid #FFFFFF;
+              background: rgba(0, 0, 0, 0.4);
+              p {
+                position: absolute;
+                left: 19px;
+                top: 8px;
+                transform: rotate(-90deg);
+              }
+            }
+        
+            button.glide__arrow.glide__arrow--right {
+              border-radius: 50%;
+              width: 46px;
+              height: 46px;
+              border: 1px solid #FFFFFF;
+              background: rgba(0, 0, 0, 0.4);
+              p {
+                position: absolute;
+                transform: rotate(90deg);
+                top: 8px;
+              }
+            }
+          }
+        }
       }
     }
 
