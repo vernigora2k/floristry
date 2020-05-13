@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Флористика-свадебная флористика</title>
+        <link rel="stylesheet" href="dist/app.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    </head>
+<body>
+    <div class="wrap-menu-page flex">
+        <section class="photo">
+            <div class="photo__logo">
+                <a href="#">
+                    <img src="/img/main-menu-page4/main-logo.png" alt="">
+                </a>
+            </div>
+            <div class="photo__img">
+                <img src="/img/main-menu-page4/main-menu-page-photo4.png" class="main-photo1" width="996px" height="1081px" alt="event bouquets">
+            </div>
+        </section>
+
+        <section class="menu-page flex">
+            <header class="menu-page__header">
+                <div class="header-menu">
+                    <a href="#"><img src="/img/main-menu-page4/menu-page-menu-btn.png" alt="" width="104px" height="76px"></a>
+                </div>
+            </header>
+            <div class="menu-page__article">
+                <div class="menu-page__article-title">
+                    <p>оформление
+                        мероприятий</p>
+                </div>
+                <div class="menu-page__article-description">
+                    <p>Мы оформим любое мероприятие в выбранном вами стиле. 
+                        Рождественские, хехоуин, день рождение или любое другое мероприятие могут превратиться в настоящую сказку, 
+                        всего лишь благодаря оформлению. Полную коллекцию оформлений в разнообразных стилях вы можете посмотреть в нашем инстаграмме.</p>
+                </div>
+                <div class="menu-page__article-link">
+                    <a href="#">
+                        <p class="btn-article-to-order">заказать</p>
+                    </a>
+                </div>
+                <div class="menu-page__slider">
+                    <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                          <ul class="glide__slides">
+                            <li class="glide__slide"><a href="#"><img src="/img/main-menu-page4/menu-page-small-photo1.png" alt="mini-photo1"></a></li>
+                            <li class="glide__slide"><a href="#"><img src="/img/main-menu-page4/menu-page-small-photo2.png" alt="mini-photo2"></a></li>
+                            <li class="glide__slide"><a href="#"><img src="/img/main-menu-page4/menu-page-small-photo3.png" alt="mini-photo3"></a></li>
+                            <li class="glide__slide"><a href="#"><img src="/img/main-menu-page4/menu-page-small-photo4.png" alt="mini-photo4"></a></li>
+                            <li class="glide__slide"><a href="#"><img src="/img/main-menu-page4/menu-page-small-photo5.png" alt="mini-photo5"></a></li>
+                            <li class="glide__slide"><a href="#"><img src="/img/main-menu-page4/menu-page-small-photo6.png" alt="mini-photo6"></a></li>
+                            <li class="glide__slide"><a href="#"><img src="/img/main-menu-page4/menu-page-small-photo7.png" alt="mini-photo7"></a></li>
+                            <li class="glide__slide"><a href="#"><img src="/img/main-menu-page4/menu-page-small-photo8.png" alt="mini-photo8"></a></li>
+                        </ul>
+                        </div>
+                        <div class="glide__arrows" data-glide-el="controls">
+                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><p>^</p></button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><p>^</p></button>
+                          </div>
+                      </div>
+                </div>
+            </div>
+            <footer class="menu-page__footer">
+                <div class="more-photo-insta flex">
+                        <p class="more-photo">Больше фотографий в профиле</p>
+                        <div class="social-insta"><img src="/img/main-menu-page4/inst.svg" alt="" class="inst"></div>
+                </div>
+            </footer>
+        </section>
+
+        <footer class="menu-page-main-footer">
+            <div class="main-footer__items flex wrapper">
+                <div class="footer-item">
+                    <a href="#">
+                        <p>Cвадебная флористика</p>
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="#">
+                        <p>Букеты на любые мероприятия</p>
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="#">
+                        <p>Букеты невесты</p>
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="#">
+                        <p>Композиции</p>
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="#">
+                        <p>Оформление мероприятий</p>
+                    </a>
+                </div>
+            </div>
+            <div class="main-footer__social wrapper">
+                <div class="social-items flex">
+                    <div class="social-item"><img src="/img/footer/inst.svg" alt="" class="inst"></div>
+                    <div class="social-item"><img src="/img/footer/fb.svg" alt="" class="inst"></div>
+                    <div class="social-item"><img src="/img/footer/whatsapp.svg" alt="" class="inst"></div>
+                    <div class="social-item"><img src="/img/footer/vk.svg" alt="" class="inst"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script type="text/javascript">
+        const config = {
+            type: "carousel",
+            perView: 4,
+            breakpoints: {
+                940: {
+                    perView: 2
+                },
+                660: {
+                    perView: 1
+                }
+            },
+            autoplay: 5000,
+            arrows: 'body',
+            navigation: 'body'
+        }
+        new Glide('.glide', config).mount()
+    </script>
+</body>
+</html>
