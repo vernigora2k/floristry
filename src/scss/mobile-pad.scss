@@ -446,7 +446,7 @@ div.wrap-menu-page {
 
       .menu-page__article-description {
         width: 635px;
-        height: 110px;
+        height: auto;
         margin-top: 25px;
         p {
           text-transform: initial;
@@ -463,7 +463,7 @@ div.wrap-menu-page {
       .menu-page__article-link {
         width: 169px;
         height: 60px;
-        margin-top: 40px;
+        margin-top: 30px;
         a {
           text-decoration: none;
           .btn-article-to-order {
@@ -550,7 +550,7 @@ div.wrap-menu-page {
     max-width: 768px;
     width: 100%;
     padding-bottom: 5px;
-    margin-top: 285px;
+    margin-top: 305px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     .main-footer__items {
       width: 310px;
