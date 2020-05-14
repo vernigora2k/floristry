@@ -430,7 +430,7 @@ div.wrap-menu-page {
       display: flex;
       flex-direction: column;
       width: 668px;
-      height: 110px;
+      height: auto;
       margin-left: 60px;
       margin-top: 200px;
       .menu-page__article-title {
@@ -550,7 +550,7 @@ div.wrap-menu-page {
     max-width: 768px;
     width: 100%;
     padding-bottom: 5px;
-    margin-top: 305px;
+    margin-top: 70px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     .main-footer__items {
       width: 310px;
