@@ -595,4 +595,71 @@ div.wrap-menu-page {
   }
 }
 
+//section-pupup-main-menu---------------------
+section.popup-main-menu {
+  position: fixed;
+  justify-content: center;
+  top: 0px;
+  z-index: 2;
+  max-width: 768px;
+  width: 100%;
+  max-height: 1080px;
+  height: 1080px;
+  background-color: #3B181E;
+  //background-color: rgba(0,0,0,0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  .popup-main-menu__column-socials {
+    display: none;
+  }
+
+  div.popup-main-menu__column-menu {
+    margin-top: 95px;
+    .main-menu-logo {
+      text-align: center;
+      a {
+        img {}
+      }
+    }
+    .main-menu-items {
+      margin-top: 200px;
+      .menu-item {
+        width: 433px;
+        height: 100px;
+        margin-bottom: 65px;
+        a {
+          text-decoration: none;
+          p {
+            font-size: 35px;
+            line-height: 39px;
+            text-align: center;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.5);
+          }
+          p:hover {
+            font-size: 45px;
+            line-height: 50px;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+
+  .popup-main-menu__column-btn-close {
+    position: absolute;
+    top: -60px;
+    right: 40px;
+    .btn-close {
+      padding-top: 100px;
+      padding-left: 125px;
+    }
+    .btn-close:hover {
+      a>img {
+        filter: contrast(40%);
+      }
+    }
+  }
+}
+
 }
