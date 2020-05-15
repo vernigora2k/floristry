@@ -11,7 +11,8 @@ const PATHS = {
 
 module.exports = {
     entry: {
-        app: "./src/index.js"
+        app: "./src/index.js",
+        menu: "./src/menu-page.js"
     },
 
     output: {
