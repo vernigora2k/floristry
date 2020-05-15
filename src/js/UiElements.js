@@ -1,4 +1,6 @@
 export const mainCatalogItems = document.querySelectorAll('.catalog-item-img')
 export const catalogItemArticles = document.querySelectorAll('.catalog-item-article')
-
 export const catalogItem = document.querySelectorAll('.catalog-item')
+export const closeBtnPopup = document.querySelector('.btn-close')
+export const mainPopup = document.querySelector('.popup-main-menu')
+export const mainMenuBtn = document.querySelector('.header-main-menu') 

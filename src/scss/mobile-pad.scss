@@ -32,6 +32,9 @@ section.main {
           content: url(/img/mobile/main-menu-mobile.png);
           width: 120%;
       }
+      .header-main-menu>a>img:hover {
+        -webkit-filter: invert(30%);
+      }
     }
     .main__title {
         max-width: 567px;
