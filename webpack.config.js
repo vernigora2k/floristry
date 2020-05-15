@@ -61,7 +61,7 @@ module.exports = {
             filename: '[name].css'
         }),
         new HtmlWebpackPlugin({
-            title: 'Светотехническое оборудование',
+            title: 'Весна Всегда',
             template:__dirname + '/public/index.html',
             filename: 'index_bundle.html'
         })
