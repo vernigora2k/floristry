@@ -152,7 +152,6 @@ section.main {
         letter-spacing: 0.06em;
       }
     }
-  
     .catalog__items {
       .slid {
         .slider {
@@ -184,8 +183,6 @@ section.main {
                 color: white;
                 bottom: 15px;
                 left: 20px;
-              }
-              img {
               }
             }
           }
@@ -266,8 +263,6 @@ section.main {
         a {
           text-decoration: none;
           color: white;
-          .btn-offer-design {
-          }
         }
       }
       .offer-link:hover {
@@ -335,7 +330,6 @@ div.wrap-menu-page {
     margin-top: 65px;
     width: 320px;
     height: 443px;
-    
     position: relative;
     .photo__logo {
       position: absolute;
@@ -554,7 +548,6 @@ section.popup-main-menu {
   max-height: 568px;
   height: 568px;
   background-color: #3B181E;
-  //background-color: rgba(0,0,0,0.5);
   border: 1px solid rgba(255, 255, 255, 0.2);
   .popup-main-menu__column-socials {
     display: none;
@@ -594,8 +587,6 @@ section.popup-main-menu {
   }
   .popup-main-menu__column-btn-close {
     position: absolute;
-    //top: -60px;
-    //right: 40px;
     .btn-close {
       padding-top: 15px;
       padding-left: 255px;
@@ -627,8 +618,6 @@ section.popup-main-menu {
     border: 1px solid rgba(255, 255, 255, 0.2);
     .popup-callme-back__column-img {
       display: none;
-      img {
-      }
     }
     .popup-callme-back__form {
       flex-direction: column;

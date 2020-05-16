@@ -10,8 +10,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 //section-main---------------------
 section.main {
@@ -30,10 +29,6 @@ section.main {
         margin-top: 100px;
         margin-left: 95px;
         margin-right: 95px;
-      .header-logo {
-      }
-      .header-main-menu {
-      }
       .header-main-menu>a>img:hover {
         -webkit-filter: invert(30%);
       }
@@ -384,9 +379,6 @@ section.catalog-mobile {
           a {
             text-decoration: none;
             color: white;
-            .btn-offer-design {
-              
-            }
           }
         }
         .offer-link:hover {
@@ -483,13 +475,6 @@ div.wrap-menu-page {
       align-self: flex-end;
       margin-right: 85px;
       margin-top: 75px;
-      .header-menu {
-        a {
-          img {
-
-          }
-        }
-      }
       .header-menu>a>img:hover {
         -webkit-filter: invert(30%);
       }
@@ -548,13 +533,6 @@ div.wrap-menu-page {
         height: 123px;
         margin-top: 80px;
         .glide {
-          .glide__track {
-            .glide__slides {
-              .glide__slide {
-        
-              }
-            }
-          }
           .glide__arrows {
             position: relative;
             button.glide__arrow.glide__arrow--left {
@@ -622,24 +600,6 @@ div.wrap-menu-page {
   //footer----------------------------
   footer.menu-page-main-footer {
     display: none;
-    div.main-footer__items.flex.wrapper {
-      div.footer-item {
-        a {
-          p {
-
-          }
-        }
-      }
-    }
-    div.main-footer__social.wrapper {
-      div.social-items.flex {
-        div.social-item {
-          img.inst {
-
-          }
-        }
-      }
-    }
   }
 }
 //section-pupup-main-menu---------------------
@@ -662,8 +622,6 @@ section.popup-main-menu {
     .social-items {
       .social-item {
         margin-bottom: 25px;
-        img.inst {
-        }
       }
       .social-item:last-child {
         margin-bottom: 0px;
@@ -678,9 +636,6 @@ section.popup-main-menu {
     margin-top: 95px;
     .main-menu-logo {
       text-align: center;
-      a {
-        img {}
-      }
     }
     .main-menu-items {
       margin-top: 200px;
@@ -737,10 +692,6 @@ section.popup-main-menu {
     background: #3B181E;
     flex-direction: column;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    .popup-callme-back__column-img {
-      img {
-      }
-    }
     .popup-callme-back__form {
       flex-direction: column;
       align-items: center;
