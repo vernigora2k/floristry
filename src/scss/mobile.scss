@@ -134,12 +134,10 @@ section.main {
         display: none;    
     }
   }
-
 //section-catalog-------------------------
   section.catalog {
     display: none;
   }
-
 //section-catalog-mobile------------------
   section.catalog-mobile.flex {
     display: block;
@@ -152,7 +150,6 @@ section.main {
         font-size: 20px;
         line-height: 170%;
         letter-spacing: 0.06em;
-
       }
     }
   
@@ -214,7 +211,6 @@ section.main {
       }
     }
   }
- 
   //section-special-offer------------
   section.special-offer {
     background-color: #3B181E;
@@ -271,7 +267,6 @@ section.main {
           text-decoration: none;
           color: white;
           .btn-offer-design {
-            
           }
         }
       }
@@ -287,7 +282,6 @@ section.main {
     }
   }
 }
-
 //footer---------------------------
 footer.main-footer {
   background-color: #3B181E;
@@ -329,7 +323,6 @@ footer.main-footer {
     }
   }
 }
-
 //MAIN-MENU-PAGE---------------------------
 //section photo----------------------
 div.wrap-menu-page { 
@@ -361,14 +354,11 @@ div.wrap-menu-page {
       height: 523px;
       
       transform: translate(-18%, -20%);
-      //height: auto;
-      
     }
     .photo__img:after {
       display: none;
     }
   }
-
   //section-menu-page------------------
   section.menu-page {
     position: relative;
@@ -395,7 +385,6 @@ div.wrap-menu-page {
         -webkit-filter: invert(30%);
       }
     }
-
     .menu-page__article {
       display: flex;
       flex-direction: column;
@@ -412,7 +401,6 @@ div.wrap-menu-page {
           text-transform: uppercase;
         }
       }
-
       .menu-page__article-description {
         width: 280px;
         height: auto;
@@ -428,7 +416,6 @@ div.wrap-menu-page {
           text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
       }
-
       .menu-page__article-link {
         width: 119px;
         height: 45px;
@@ -450,7 +437,6 @@ div.wrap-menu-page {
           }
         }
       }
-
       .menu-page__slider {
         position: absolute;
         top: 340px;
@@ -468,7 +454,6 @@ div.wrap-menu-page {
               }
             }
           }
-        
           .glide__arrows {
             position: relative;
             button.glide__arrow.glide__arrow--left {
@@ -487,7 +472,6 @@ div.wrap-menu-page {
                 transform: rotate(-90deg);
               }
             }
-        
             button.glide__arrow.glide__arrow--right {
               position: absolute;
               right: -3px;
@@ -508,12 +492,10 @@ div.wrap-menu-page {
         }
       }
     }
-
     .menu-page__footer {
       display: none;
     }
   }
-
   //footer----------------------------
   footer.menu-page-main-footer {
     background-color: #3B181E;
@@ -561,7 +543,6 @@ div.wrap-menu-page {
     }
   }
 }
-
 //section-pupup-main-menu---------------------
 section.popup-main-menu {
   position: fixed;
@@ -578,7 +559,6 @@ section.popup-main-menu {
   .popup-main-menu__column-socials {
     display: none;
   }
-
   div.popup-main-menu__column-menu {
     margin-top: 26px;
     .main-menu-logo {
@@ -612,7 +592,6 @@ section.popup-main-menu {
       }
     }
   }
-
   .popup-main-menu__column-btn-close {
     position: absolute;
     //top: -60px;
@@ -629,12 +608,12 @@ section.popup-main-menu {
     }
   }
 }
-
 //section-popup-callme-back--------------
 .popup-blured-screen {
   position: fixed;
   background: rgba(0, 0, 0, 0.4);
   top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -724,5 +703,4 @@ section.popup-main-menu {
     }
   }
 }
-
 }
