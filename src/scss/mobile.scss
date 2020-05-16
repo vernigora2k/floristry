@@ -570,8 +570,8 @@ section.popup-main-menu {
   z-index: 2;
   max-width: 320px;
   width: 100%;
-  max-height: 1080px;
-  height: 1080px;
+  max-height: 568px;
+  height: 568px;
   background-color: #3B181E;
   //background-color: rgba(0,0,0,0.5);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -580,32 +580,32 @@ section.popup-main-menu {
   }
 
   div.popup-main-menu__column-menu {
-    margin-top: 95px;
+    margin-top: 26px;
     .main-menu-logo {
       text-align: center;
       a {
-        img {}
+        img {width: 95px;}
       }
     }
     .main-menu-items {
-      margin-top: 200px;
+      margin-top: 85px;
       .menu-item {
-        width: 433px;
-        height: 100px;
-        margin-bottom: 65px;
+        width: 180px;
+        height: 45px;
+        margin-bottom: 45px;
         a {
           text-decoration: none;
           p {
-            font-size: 35px;
-            line-height: 39px;
+            font-size: 15px;
+            line-height: 17px;
             text-align: center;
             letter-spacing: 0.09em;
             text-transform: uppercase;
             color: rgba(255, 255, 255, 0.5);
           }
           p:hover {
-            font-size: 45px;
-            line-height: 50px;
+            font-size: 23px;
+            line-height: 25px;
             color: #FFFFFF;
           }
         }
@@ -615,11 +615,12 @@ section.popup-main-menu {
 
   .popup-main-menu__column-btn-close {
     position: absolute;
-    top: -60px;
-    right: 40px;
+    //top: -60px;
+    //right: 40px;
     .btn-close {
-      padding-top: 100px;
-      padding-left: 125px;
+      padding-top: 15px;
+      padding-left: 255px;
+      a>img {width: 21px;}
     }
     .btn-close:hover {
       a>img {
