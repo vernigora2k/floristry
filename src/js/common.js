@@ -1,4 +1,4 @@
-import {mainCatalogItems, catalogItemArticles, catalogItem, btnClosePopup, popupMain, btnMainMenu} from './UiElements'
+import {mainCatalogItems, catalogItemArticles, catalogItem, btnClosePopup, popupMain, btnMainMenu, btnClosePopupCallMe, popupCallMe, btnPopupCallMe} from './UiElements'
 
 addListenerToCatalogItem(0)()
 addListenerToCatalogItem(1)()
@@ -26,4 +26,12 @@ btnClosePopup.addEventListener('click', () => {
 
 btnMainMenu.addEventListener('click', () => {
     popupMain.classList.remove('invisible')
+})
+
+btnClosePopupCallMe.addEventListener('click', () => {
+    popupCallMe.classList.add('invisible')
+})
+
+btnPopupCallMe.addEventListener('click', () => {
+    popupCallMe.classList.remove('invisible')
 })

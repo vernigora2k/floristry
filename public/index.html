@@ -243,28 +243,30 @@
             </div>
         </div>
     </section>
-    <section class="popup-callme-back">
-        <div class="popup-blured-screen">
-            <div class="popup-callme-back__column-img">
-                <img src="" alt="img callme-back" width="335px" height="444px">
-            </div>
-            <div class="popup-callme-back__form">
-                <div>
-                    <div class="popup-callme-back__title">
-                        <p></p>
-                    </div>
-                    <div class="popup-callme-back__btn-close">
-                        <a href="#"><img src="" alt=""></a>
-                    </div>
+    <div class="popup-blured-screen flex invisible">
+        <section class="popup-callme-back flex">
+                <div class="popup-callme-back__column-img">
+                    <img src="/img/popups/callme-back-img.png" alt="img callme-back" width="335px" height="444px">
                 </div>
-                <form id="callme-back" action="#">
-                    <input id="name" name="name" placeholder="Имя" required type="text" tabindex="1">
-                    <input id="phone" name="phone" placeholder="Телефон" required type="text" tabindex="2">
-                    <input id="submit" name="submit" value="ПОЗВОНИТЕ МНЕ" tabindex="3" type="submit">
-                </form>
-            </div>
-        </div>
-    </section>
+                <div class="popup-callme-back__form flex">
+                    <div>
+                        <div class="popup-callme-back__title">
+                            <p>Оставьте свой
+                                номер и мы вам
+                                перезвоним!</p>
+                        </div>
+                        <div class="popup-callme-back__btn-close">
+                            <a href="#"><img src="/img/popups/btn-close.png" alt=""></a>
+                        </div>
+                    </div>
+                    <form id="callme-back" action="#">
+                        <input id="name" name="name" placeholder="Имя" required type="text" tabindex="1">
+                        <input id="phone" name="phone" placeholder="Телефон" required type="text" tabindex="2">
+                        <input id="submit" name="submit" value="ПОЗВОНИТЕ МНЕ" tabindex="3" type="submit">
+                    </form>
+                </div>
+        </section>
+    </div>
     <script src="/dist/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script type="text/javascript">
