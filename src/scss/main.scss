@@ -741,4 +741,36 @@ section.popup-main-menu {
   }
 }
 
+//section-popup-callme-back--------------
+section.popup-callme-back {
+  .popup-blured-screen {
+    .popup-callme-back__column-img {
+      img {
+      }
+    }
+    .popup-callme-back__form {
+      div {
+        .popup-callme-back__title {
+          p {
+          }
+        }
+        .popup-callme-back__btn-close {
+          a {
+            img {
+            }
+          }
+        }
+      }
+      form#callme-back {
+        input#name {
+        }
+        input#phone {
+        }
+        input#submit {
+        }
+      }
+    }
+  }
+}
+
 }
